@@ -91,13 +91,11 @@
 		9F24227223DFAADD0069A9EA /* PhotoJournal Janurary 27 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				9FFE10B623E25F2D00E0CDC5 /* Model */,
+				9FFE10B523E25D1600E0CDC5 /* Data Persistence  */,
 				9F24227323DFAADD0069A9EA /* AppDelegate.swift */,
 				9F24227523DFAADD0069A9EA /* SceneDelegate.swift */,
 				9F24227723DFAADD0069A9EA /* ViewController.swift */,
-				9F9CC1B523DFB51A00922D26 /* PhotoModel.swift */,
-				9F9CC1B723DFB67F00922D26 /* PersistenceHelper.swift */,
-				9FFE10B323E25B6D00E0CDC5 /* Extension + Alert.swift */,
-				9F9CC21B23E1F92800922D26 /* FileManger.swift */,
 				9F9CC1B323DFB33F00922D26 /* PhotoCVC.swift */,
 				9F24227923DFAADD0069A9EA /* Main.storyboard */,
 				9F9CC1B123DFAF2A00922D26 /* EditVCViewController.swift */,
@@ -115,6 +113,24 @@
 				9F24228C23DFAAE10069A9EA /* Info.plist */,
 			);
 			path = "PhotoJournal Janurary 27 2020Tests";
+			sourceTree = "<group>";
+		};
+		9FFE10B523E25D1600E0CDC5 /* Data Persistence  */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE10B323E25B6D00E0CDC5 /* Extension + Alert.swift */,
+				9F9CC21B23E1F92800922D26 /* FileManger.swift */,
+				9F9CC1B723DFB67F00922D26 /* PersistenceHelper.swift */,
+			);
+			path = "Data Persistence ";
+			sourceTree = "<group>";
+		};
+		9FFE10B623E25F2D00E0CDC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CC1B523DFB51A00922D26 /* PhotoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
