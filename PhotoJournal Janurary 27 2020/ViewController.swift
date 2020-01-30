@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var gearBarButton: UIBarButtonItem!
-    var photoDidSet = [Pictures](){
+    var photoDidSet = [T](){
     didSet{
         collectionView.reloadData()
     }

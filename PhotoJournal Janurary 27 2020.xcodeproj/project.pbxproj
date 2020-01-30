@@ -19,6 +19,7 @@
 		9F9CC1B623DFB51A00922D26 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CC1B523DFB51A00922D26 /* PhotoModel.swift */; };
 		9F9CC1B823DFB67F00922D26 /* PersistenceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CC1B723DFB67F00922D26 /* PersistenceHelper.swift */; };
 		9F9CC21C23E1F92800922D26 /* FileManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CC21B23E1F92800922D26 /* FileManger.swift */; };
+		9FFE10B423E25B6D00E0CDC5 /* Extension + Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE10B323E25B6D00E0CDC5 /* Extension + Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		9F9CC1B523DFB51A00922D26 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		9F9CC1B723DFB67F00922D26 /* PersistenceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceHelper.swift; sourceTree = "<group>"; };
 		9F9CC21B23E1F92800922D26 /* FileManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManger.swift; sourceTree = "<group>"; };
+		9FFE10B323E25B6D00E0CDC5 /* Extension + Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				9F24227723DFAADD0069A9EA /* ViewController.swift */,
 				9F9CC1B523DFB51A00922D26 /* PhotoModel.swift */,
 				9F9CC1B723DFB67F00922D26 /* PersistenceHelper.swift */,
+				9FFE10B323E25B6D00E0CDC5 /* Extension + Alert.swift */,
 				9F9CC21B23E1F92800922D26 /* FileManger.swift */,
 				9F9CC1B323DFB33F00922D26 /* PhotoCVC.swift */,
 				9F24227923DFAADD0069A9EA /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFE10B423E25B6D00E0CDC5 /* Extension + Alert.swift in Sources */,
 				9F9CC1B623DFB51A00922D26 /* PhotoModel.swift in Sources */,
 				9F24227823DFAADD0069A9EA /* ViewController.swift in Sources */,
 				9F24227423DFAADD0069A9EA /* AppDelegate.swift in Sources */,

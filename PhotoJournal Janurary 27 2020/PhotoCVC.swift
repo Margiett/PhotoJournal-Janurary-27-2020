@@ -16,7 +16,7 @@ class PhotoCVC: UICollectionViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var editButton: UIButton!
     
-    func configureCell(for item: Pictures){
+    func configureCell(for item: T){
         titileLabel.text = item.title
         dateLabel.text = item.date
         photo.image = UIImage(data: item.imageData)

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Pictures: Codable {
+class T: Codable {
     let imageData: Data
     let date: String // this would be either the date that was taken or saved
     
