@@ -9,7 +9,8 @@
 import UIKit
 //MARK: Step 1: custom delegation - defining the protocol 
 protocol imageJorunalDelegate: AnyObject {
-    func imagePic<T>(_ editVC: EditVCViewController, _ pic: T)
+    func imagePic(_ editVC: EditVCViewController, _ pic: PhotoModel)
+    func didLongPress(_ imageCell: PhotoCVC)
 }
 
 class EditVCViewController: UIViewController {

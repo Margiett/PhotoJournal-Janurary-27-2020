@@ -91,12 +91,12 @@
 		9F24227223DFAADD0069A9EA /* PhotoJournal Janurary 27 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				9FD04DD823E374AB00C0D978 /* Cell */,
 				9FFE10B623E25F2D00E0CDC5 /* Model */,
 				9FFE10B523E25D1600E0CDC5 /* Data Persistence  */,
 				9F24227323DFAADD0069A9EA /* AppDelegate.swift */,
 				9F24227523DFAADD0069A9EA /* SceneDelegate.swift */,
 				9F24227723DFAADD0069A9EA /* ViewController.swift */,
-				9F9CC1B323DFB33F00922D26 /* PhotoCVC.swift */,
 				9F24227923DFAADD0069A9EA /* Main.storyboard */,
 				9F9CC1B123DFAF2A00922D26 /* EditVCViewController.swift */,
 				9F24227C23DFAAE10069A9EA /* Assets.xcassets */,
@@ -113,6 +113,14 @@
 				9F24228C23DFAAE10069A9EA /* Info.plist */,
 			);
 			path = "PhotoJournal Janurary 27 2020Tests";
+			sourceTree = "<group>";
+		};
+		9FD04DD823E374AB00C0D978 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CC1B323DFB33F00922D26 /* PhotoCVC.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		9FFE10B523E25D1600E0CDC5 /* Data Persistence  */ = {

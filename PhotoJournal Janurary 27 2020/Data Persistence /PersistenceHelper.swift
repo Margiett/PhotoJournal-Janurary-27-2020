@@ -23,14 +23,14 @@ class PersistenceHelper<T: Writable> {
     private var filename: String
     
     // this is making an initializer
-   public init(filenameInit: String) {
-        self.filename = filenameInit
+   public init(filename: String) {
+        self.filename = filename
     self.arrayPhotos = []
     }
     //MARK: This is the C for create in CRUD
     
     //MARK: Adding something to the array and than we will be saving. we always want to save the state of array of  photos
-    private func create(item: T) throws {
+    public func create(item: T) throws {
         arrayPhotos.append(item)
         
         do{
